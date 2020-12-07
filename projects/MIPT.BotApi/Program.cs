@@ -11,6 +11,11 @@ namespace MIPT.BotApi
 {
     public class Program
     {
+        /// <summary>
+        /// Main entry point
+        /// </summary>
+        /// <param name="args">command line arguments</param>
+        /// <returns></returns>
         public static async Task Main(string[] args)
         {
             var host = Host.CreateDefaultBuilder(args)
